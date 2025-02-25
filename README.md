@@ -27,11 +27,14 @@ This analysis operates under the assumption that all countries accurately report
 
 ### Questions:
 •	What are some interesting facts that you learned through the visualization. Provide at least one unexpected finding?
+
 Surprisingly, countries near the equator report fewer skin cancer cases despite higher UV exposure, while higher-latitude countries have the highest rates. This suggests that factors like genetics, healthcare access, and lifestyle choices may play a bigger role than sun exposure alone.
 
 •	How did you create the interface? Were there any data preparation steps? What guided the style customizations and interface layout that you used?
+
 The Shiny app includes interactive filters for year, latitude, and cancer type, updating three visualizations dynamically. Data preparation involved merging cancer incidence with latitude data, handling missing values, and rounding numbers. The tabbed layout ensures easy navigation between the scatter plot, world map, and sorted table.
 
 •	What is the reactive graph structure of your application?
+
 The app uses reactive functions, ensuring that changes in filters instantly update all visualizations. The scatter plot adjusts regression trends, the map resizes bubbles dynamically, and the table reorders countries based on selected filters, making the analysis fully interactive.
 
