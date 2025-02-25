@@ -22,8 +22,6 @@ The sorted table provides a structured and numerical comparison of skin cancer i
 Filtering by year and latitude range makes it possible to identify trends over time. Sorting by reported cases allows for quick identification of outliers and high-risk regions. Displaying whole numbers ensures clarity and readability for accurate comparison.
 This precise, data-driven approach is valuable for researchers, policymakers, and healthcare professionals seeking to understand geographic disparities and potential risk factors for skin cancer.
 
-
-
 ### Conclusion
 This analysis operates under the assumption that all countries accurately report their skin cancer cases, ensuring data reliability and comparability across regions. However, the findings challenge the conventional belief that greater sun exposure directly leads to higher skin cancer rates. Instead, the data shows that countries near the equator, where people are exposed to intense sunlight year-round, report significantly fewer skin cancer cases compared to those in higher latitudes.
 
@@ -36,4 +34,4 @@ The Shiny app includes interactive filters for year, latitude, and cancer type, 
 
 •	What is the reactive graph structure of your application?
 The app uses reactive functions, ensuring that changes in filters instantly update all visualizations. The scatter plot adjusts regression trends, the map resizes bubbles dynamically, and the table reorders countries based on selected filters, making the analysis fully interactive.
-![image](https://github.com/user-attachments/assets/b575675e-c673-444a-b8c4-ee65da5b2b8a)
+
