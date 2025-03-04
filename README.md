@@ -1,4 +1,4 @@
-# hw2-data-visualization 
+# hw2-data-visualization  
 
 ### Exploring the Paradox: Skin Cancer and Geographic Latitude
 
