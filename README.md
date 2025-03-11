@@ -38,3 +38,4 @@ The Shiny app includes interactive filters for year, latitude, and cancer type, 
 
 The app uses reactive functions, ensuring that changes in filters instantly update all visualizations. The scatter plot adjusts regression trends, the map resizes bubbles dynamically, and the table reorders countries based on selected filters, making the analysis fully interactive.
 
+
